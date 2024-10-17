@@ -5,12 +5,12 @@
 <br/><h2 align="left">Definições de desenvlvimento solicitadas</h2>
 <p>O arquivo com as definições solicitadas esta dentro do projeto no diretório a baixo.</p>
 
-
+``
 🗂️ src/
 ├── 📂 main/
 │   └── 📂 resources/
 │       └── 📝 data.sql
-
+``
 
 https://github.com/uczak/sicredi/blob/main/src/main/resources/static/definicoes.txt
 
@@ -29,12 +29,12 @@ https://github.com/uczak/sicredi/blob/main/src/main/resources/static/definicoes.
 
 Ao subir a aplicação o banco H2 sera criado com alguns registros pre-definidos no arquivo data.sql, que está representado na estrutura a baixo.
 
-
+``
 🗂️ src/
 ├── 📂 main/
 │   └── 📂 resources/
 │       └── 📝 data.sql
-
+``
 
 
 <br/><h2 align="left">Ambiente remoto</h2>
