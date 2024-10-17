@@ -1,5 +1,5 @@
 <h1 align="center">Projeto</h1>
-<p align="center">Este projeto sobe um banco H2 em memoria para o armazenamento dos dados. Foi desenvolvido com Java - Spring Boot.</p>
+<p align="center">Este projeto sobe um banco H2 em memória para o armazenamento dos dados. Foi desenvolvido com Java - Spring Boot.</p>
 
 
 <br/><h2 align="left">Tecnologias</h2>
@@ -15,7 +15,7 @@
 
 ![Diagrama ER](https://github.com/uczak/sicredi/blob/main/src/main/resources/static/DiagramaER.PNG)
 
-Ao subir a aplicação o banco H2 sera criado com alguns pre definidos no arquivo data.sql, representado na estrutura a baixo.
+Ao subir a aplicação o banco H2 sera criado com alguns registros pre-definidos no arquivo data.sql, que está representado na estrutura a baixo.
 ```txt
 🗂️ src/
 ├── 📂 main/
@@ -27,17 +27,17 @@ Ao subir a aplicação o banco H2 sera criado com alguns pre definidos no arquiv
 
 <br/><h2 align="left">Ambiente remoto</h2>
 <ul>
-  <li> U:  https://gitlab.rbs.com.br/rbsdev/config-files</li>
+  <li> URL:  URL da aplicação publica </li>
 </ul>
 
-<br/><h2 align="left">Rodar o projeto local </h2>
+<br/><h2 align="left">Rodar o projeto local</h2>
 <p>Para rodar o projeto, siga os passos a baixo:</p>
 <ul>
   <li>Execute o comando <b>'./gradlew build'</b> no terminal.</li>
   <li>Execute o comando <b>'./gradlew bootRun'</b> no terminal.</li>
 </ul>  
 
-<br/><h2 align="left">Rodar o teste</h2>
+<br/><h2 align="left">Rodar os testes</h2>
 <ul>
   <li>Execute o comando <b>'./gradlew test'</b> no terminal.</li>
 </ul>  
