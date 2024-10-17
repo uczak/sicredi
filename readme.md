@@ -13,7 +13,6 @@
 │            └── 📝 definicoes.txt
 ````
 
-https://github.com/uczak/sicredi/blob/main/src/main/resources/static/definicoes.txt
 
 <br/><h2 align="left">Tecnologias</h2>
 <ul>
