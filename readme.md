@@ -26,7 +26,7 @@
 
 <p>Diagrama ER:</p>
 
-![Diagrama ER](https://github.com/uczak/sicredi/blob/main/src/main/resources/static/DiagramaER.PNG)
+![Diagrama ER](https://github.com/uczak/sicredi/blob/main/src/main/resources/static/diagrama.PNG)
 
 Ao subir a aplicação o banco H2 sera criado com alguns registros pre-definidos no arquivo data.sql, que está
 representado na estrutura a baixo.
