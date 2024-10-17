@@ -9,7 +9,7 @@ public class CompraProdutoFixture {
         CompraProduto compraProduto = new CompraProduto(
                 1l,
                 1L,
-                1L
+                1
         );
         return compraProduto;
 

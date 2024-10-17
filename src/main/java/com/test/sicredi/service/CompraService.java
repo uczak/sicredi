@@ -76,7 +76,7 @@ public class CompraService {
         try {
             Compra novaCompra = compraRepository.save(new Compra(compraDTO.getCpf(), this.valorCompra, new Date()));
             compraDTO.getItems().forEach(item -> {
-                compraProdutoService.save(new CompraProduto(item.getProdutoId(), novaCompra.getId()));
+                compraProdutoService.save(new CompraProduto(item.getProdutoId(), novaCompra.getId(), item.getQuantidade()));
             });
         } catch (Exception e) {
             log.error("Erro ao registrar a compra com os dados: " + compraDTO.toString() + ". Ex: " + e.getMessage());

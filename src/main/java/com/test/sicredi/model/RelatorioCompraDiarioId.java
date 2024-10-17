@@ -10,7 +10,6 @@ import java.util.Date;
 
 @Data
 @Embeddable
-@AllArgsConstructor
 public class RelatorioCompraDiarioId implements Serializable {
 
     @Column(name = "data")
@@ -18,4 +17,11 @@ public class RelatorioCompraDiarioId implements Serializable {
     @Column(name = "produto_id")
     private Long id;
 
+    public RelatorioCompraDiarioId() {
+
+    }
+    public RelatorioCompraDiarioId(Date data, Long id) {
+        this.data = data;
+        this.id = id;
+    }
 }

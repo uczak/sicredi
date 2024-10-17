@@ -35,6 +35,7 @@ public class RelatorioCompraService {
 
             List<RelatorioCompraDiario> relatorioCompraDiarios = relatorioCompraRepository.relatorioCompra();
 
+
             BigDecimal valorTotal = BigDecimal.ZERO;
             document.add(new Paragraph("----------------------Relatório de compras----------------------"));
             Date data = null;
@@ -42,21 +43,23 @@ public class RelatorioCompraService {
 
             for (RelatorioCompraDiario relatorioCompraDiario : relatorioCompraDiarios) {
 
-                valorTotal = valorTotal.add((relatorioCompraDiario.getValor().multiply(new BigDecimal(relatorioCompraDiario.getQuantidade()))));
 
                 if (data == null) {
                     data = relatorioCompraDiario.getId().getData();
                     table = new Table(3).addCell("Produto").addCell("Valor Uni.").addCell("Quantidade Pro. vendidos"); // Cria uma tabela com 3 colunas
 
                 } else if (data.getDay() != relatorioCompraDiario.getId().getData().getDay()) {
+
                     document.add(table);
                     document.add(new Paragraph("-------Data: " + data.toString() + "--- Total: " + valorTotal.toString() ));
+                    valorTotal = BigDecimal.ZERO;
                     data = relatorioCompraDiario.getId().getData();
                     table = new Table(3).addCell("Produto").addCell("Valor Uni.").addCell("Quantidade Pro. vendidos"); // Cria uma tabela com 3 colunas
                 }
                 table.addCell(relatorioCompraDiario.getNome());
                 table.addCell(relatorioCompraDiario.getValor().toString());
                 table.addCell(relatorioCompraDiario.getQuantidade().toString());
+                valorTotal = valorTotal.add((relatorioCompraDiario.getValor().multiply(new BigDecimal(relatorioCompraDiario.getQuantidade()))));
             }
             document.add(table);
             document.add(new Paragraph("-------Data: " + data.toString() + "--- Total: " + valorTotal.toString() ));

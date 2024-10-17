@@ -20,9 +20,12 @@ public class CompraProduto {
     private Long produtoId;
     @Column(name = "compra_id")
     private Long compraId;
+    @Column(name = "quantidade")
+    private Integer quantidade;
 
-    public CompraProduto(Long produtoId, Long compraId) {
+    public CompraProduto(Long produtoId, Long compraId, Integer quantidade) {
         this.produtoId = produtoId;
         this.compraId = compraId;
+        this.quantidade = quantidade;
     }
 }

@@ -14,7 +14,7 @@ public interface RelatorioCompraRepository extends JpaRepository<RelatorioCompra
 
 
     @Query(value =
-            "SELECT trunc(com.data) data, cmp.produto_id, pro.nome, pro.valor, count(*) quantidade " +
+            "SELECT trunc(com.data) data, cmp.produto_id, pro.nome, pro.valor, sum(cmp.quantidade) quantidade " +
                     "from compra com, compra_produto cmp, produto pro " +
                     "where com.id=cmp.compra_id " +
                     "and pro.id=cmp.produto_id " +
