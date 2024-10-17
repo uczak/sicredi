@@ -44,7 +44,7 @@ representado na estrutura a baixo.
 </ul>
 
 <br/><h2 align="left">Funcionalidades</h2>
-![Diagrama ER](https://github.com/uczak/sicredi/blob/main/src/main/resources/static/DiagramaER.PNG)
+![Diagrama ER](https://github.com/uczak/sicredi/blob/main/src/main/resources/static/endpoints.PNG)
 
 
 <ul>
