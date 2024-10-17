@@ -9,7 +9,8 @@
 🗂️ src/
 ├── 📂 main/
 │   └── 📂 resources/
-│       └── 📝 data.sql
+│       └── 📂 static/
+│            └── 📝 definicoes.txt
 ````
 
 https://github.com/uczak/sicredi/blob/main/src/main/resources/static/definicoes.txt
