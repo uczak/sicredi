@@ -24,6 +24,7 @@
 
 <p>Estrutura de dados criada para relacionar produtos, pessoas e compras. A tabela compra_produto foi criada para ser possível uma compra ter N produtos associados respeitando as regras solicitadas na definição.</p>
 
+<p>Diagrama ER:</p>
 
 ![Diagrama ER](https://github.com/uczak/sicredi/blob/main/src/main/resources/static/DiagramaER.PNG)
 
@@ -45,7 +46,7 @@ representado na estrutura a baixo.
 
 <br/><h2 align="left">Funcionalidades</h2>
 
-<p>Diagrama ER:</p>
+<p>Estrutura dos endpoints:</p>
 
 ![estrutura](https://github.com/uczak/sicredi/blob/main/src/main/resources/static/endpoints.PNG)
 
