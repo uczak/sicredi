@@ -44,6 +44,9 @@ representado na estrutura a baixo.
 </ul>
 
 <br/><h2 align="left">Funcionalidades</h2>
+
+<p>Diagrama ER:</p>
+
 ![Diagrama ER](https://github.com/uczak/sicredi/blob/main/src/main/resources/static/endpoints.PNG)
 
 
@@ -107,6 +110,12 @@ Exemplo de cadastro de compra:
   ]
 }
 ````
+
+
+<p>Modelo de relatório emitido pela aplicação:</p>
+![Diagrama ER](https://github.com/uczak/sicredi/blob/main/src/main/resources/static/relatorio.PNG)
+
+
 
 <br/><h2 align="left">Rodar o projeto local</h2>
 <p>Para rodar o projeto, siga os passos a baixo:</p>
