@@ -47,7 +47,7 @@ representado na estrutura a baixo.
 
 <p>Diagrama ER:</p>
 
-![Diagrama ER](https://github.com/uczak/sicredi/blob/main/src/main/resources/static/endpoints.PNG)
+![estrutura](https://github.com/uczak/sicredi/blob/main/src/main/resources/static/endpoints.PNG)
 
 
 <ul>
@@ -113,7 +113,8 @@ Exemplo de cadastro de compra:
 
 
 <p>Modelo de relatório emitido pela aplicação:</p>
-![Diagrama ER](https://github.com/uczak/sicredi/blob/main/src/main/resources/static/relatorio.PNG)
+
+![relatorio](https://github.com/uczak/sicredi/blob/main/src/main/resources/static/relatorio.PNG)
 
 
 
