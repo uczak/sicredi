@@ -2,6 +2,19 @@
 <p align="center">Este projeto sobe um banco H2 em memória para o armazenamento dos dados. Foi desenvolvido com Java - Spring Boot.</p>
 
 
+<br/><h2 align="left">Definições de desenvlvimento solicitadas</h2>
+<p>O arquivo com as definições solicitadas esta dentro do projeto no diretório a baixo.</p>
+
+````txt
+🗂️ src/
+├── 📂 main/
+│   └── 📂 resources/
+│       └── 📝 data.sql
+````txt
+
+
+https://github.com/uczak/sicredi/blob/main/src/main/resources/static/definicoes.txt
+
 <br/><h2 align="left">Tecnologias</h2>
 <ul>
   <li>Java 17</li>
@@ -13,16 +26,17 @@
 
 <p>Estrutura de dados criada para relacionar produtos, pessoas e compras.</p>
 
-![Diagrama ER](https://github.com/uczak/sicredi/blob/main/src/main/resources/static/DiagramaER.PNG)
+
 
 Ao subir a aplicação o banco H2 sera criado com alguns registros pre-definidos no arquivo data.sql, que está representado na estrutura a baixo.
-```txt
+
+````txt
 🗂️ src/
 ├── 📂 main/
 │   └── 📂 resources/
 │       └── 📝 data.sql
 
-````
+````txt
 
 
 <br/><h2 align="left">Ambiente remoto</h2>
