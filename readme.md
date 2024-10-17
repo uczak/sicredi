@@ -3,9 +3,7 @@
 
 <br/><h2 align="left">Estrutura de dados</h2>
 
-[Diagrama ER](https://github.com/uczak/sicredi/src/main/resources/static/DiagramaER.PNG)
-
-
+[Diagrama ER](https://github.com/uczak/sicredi/blob/main/src/main/resources/static/DiagramaER.PNG)
 
 Ao subir a aplicação o banco H2 sera criado com alguns pre definidos no arquivo data.sql, representado na estrutura a baixo.
 ```txt
